@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(34, 34, 34, 0.8);
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #cc5200;
+}
+
+/* Pricing Table */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+    background: rgba(34, 34, 34, 0.8);
+    padding: 10px;
+    margin-top: 20px;
+}
